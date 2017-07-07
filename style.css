@@ -1,0 +1,178 @@
+
+
+body {font:italic 15pt Times;
+background-image: url('bak.jpg');
+    background-size:1720*1720px;
+}
+
+.none{display: none;}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {color:#0067ab; text-decoration:none;}
+
+a:hover {text-decoration:none;color='red';font='italic 30pt Times';}
+.form{width: 300px; margin: 0 auto;}
+
+input[type='text'], input[type='email'], input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 10px; color: #333; font-size: 14px; margin-top: 10px;}
+input[type='submit']{padding: 10px 25px 8px; color: #fff; background-color: #0067ab; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; border: 1px solid #0164a5; border-radius: 2px; margin-top: 10px; cursor:pointer;}
+input[type='submit']:hover {background-color: #024978;}
+img{
+    margin-left: 325px;
+}
+/* month and year drop down menu styles */
+.dropdown {
+   
+    font-size: 17px;
+    background: seashell;
+    text-decoration: none;
+          color: red;
+}
+/* calendar display stylings*/
+#calendar {
+    width: 700px;
+    margin: 0px auto 0;
+    background-color: forestgreen;/*nav bar*/
+        color: yellow;
+        font-size: 20px;
+        position:relative;
+        text-align: center;
+        font-weight: bold;
+        line-height: 40px;
+}
+#calendar h2 {
+        background-color: forestgreen;/*nav bar*/
+        color: yellow;
+        text-align: center;
+        line-height: 40px;
+        font-size: 17px;
+       
+}
+
+
+
+#calendar h2  a {
+            color: cornsilk;/* gretaer symbols  whatever there in link*/
+            float: none;
+        
+        
+        text-decoration: none;
+    
+}
+
+#calendar_top {
+     width: 101%;
+    float: left;
+    margin-top: 0px;
+}
+
+    #calendar_top ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+        #calendar_top ul li {
+            float: left;
+            display: inline;
+            width: 101px;
+            border-right: 1px solid yellow;
+            text-align: center;
+            min-height: 0;
+            background:yellow;
+            color:green;
+            font:italic 15pt Times
+             font-size: 35px;
+            box-shadow: none;
+            list-style-type: none;
+            padding:0;
+margin: 0px auto;
+width: 14%;/*table width*/
+    opacity: 1;
+        }
+/*calendar dates box styling */
+#calendar_bottom {
+     width: 101%;    
+    float: left;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top:3px;
+}
+
+    #calendar_bottom ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+        #calendar_bottom ul li {
+            float: left;
+            width: 99px;
+            height: 70px;
+            text-align: center;
+            border-top: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            background: seashell;
+            color: olive;
+            display: block;
+            font-weight:bold;
+            font-size:25px;
+            font:italic 15pt Times;
+           
+            position:relative;
+        }
+
+            #calendar_bottom ul li span {
+                margin-top: 0px;
+                float: left;
+                text-align: center;
+                margin-left: 0px;
+            }
+
+.palegreen {
+    background-color: palegreen !important;
+}
+
+.light_sky{ background-color:turquoise  !important;}
+.date_cell { cursor: pointer; cursor: hand; }
+.date_cell:hover { background-color: peru !important;color:green; }
+.date_popup_wrap {
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	top: -60px;
+	left:-7px;
+    font-size: 7px;
+	background: transparent url(add-new-event.png) no-repeat top left;
+	color: orangered;/*events header*/
+}
+.events_window {
+	overflow: hidden;
+	overflow-y: hidden;
+	width: 133px;
+	height: 50px;
+	margin-top: 0px;
+	margin-left: 25px;
+}
+.event_wrap {
+	margin-bottom: 0px; padding-bottom: 0px;
+	border-bottom: solid 1px #E4E4E7;
+	font-size: 13px;
+	padding: 3px;
+}
+.date_window {
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding: 5px;
+	font-size: 13px;
+	margin-left:9px;
+	margin-right:14px
+}
+.popup_event {
+	margin-bottom: 0px;
+	padding: 2px;
+	font-size: 13px;
+	width:100%;
+}
+.popup_event a {color: aqua;}
+.packeg_box a {color: aqua;float: right;}
+a:hover {color: red;text-decoration: underline;}
+
